@@ -35,19 +35,19 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-.navigation_bar .right_nav {
+.navigation_bar .right_nav ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
 }
-.navigation_bar .right_nav li {
+.navigation_bar .right_nav ul li {
   margin-right: 30px;
   font-size: 2rem;
   cursor: pointer;
   color: #ffffffab;
 }
-.navigation_bar .right_nav li:hover {
+.navigation_bar .right_nav ul li:hover {
   color: #ffffff;
   transition: 0.4s all ease-in;
 }
@@ -83,4 +83,17 @@ body {
 .rapper .nav_action_button:hover {
   background-color: #0085dd;
   transition: 0.4s all ease-in;
+}
+
+
+.hero{
+  position: fixed;
+  z-index: 10;
+  top:50%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+}
+
+.hero{
+  
 }
