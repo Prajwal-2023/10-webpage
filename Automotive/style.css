@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.rapper {
+  position: relative;
+  color: white;
+}
+
+.rapper .navigation_bar {
+  width: 100%;
+  color: white;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.385);
+  backdrop-filter: blur(10px);
+}
+.navigation_bar .left_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation_bar .right_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.navigation_bar .right_nav li {
+  margin-right: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ffffffab;
+}
+.navigation_bar .right_nav li:hover {
+  color: #ffffff;
+  transition: 0.4s all ease-in;
+}
+
+.navigation_bar .left_nav #carlogo {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 20px;
+}
+.navigation_bar .left_nav #logoname {
+  height: 50px;
+}
+
+.rapper .mainbg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.rapper .nav_action_button {
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #00aeff;
+  font-size: 1.5rem;
+}
+
+.rapper .nav_action_button:hover {
+  background-color: #0085dd;
+  transition: 0.4s all ease-in;
+}
