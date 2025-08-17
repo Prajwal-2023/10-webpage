@@ -89,11 +89,26 @@ body {
 .hero{
   position: fixed;
   z-index: 10;
-  top:50%;
-  left: 10%;
+  top:40%;
+  left: 25%;
   transform: translate(-50%,-50%);
+  text-align: left;
 }
 
-.hero{
-  
+.hero h1{
+  font-size:6rem;
+}
+.hero h3{
+  font-size:2rem;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.hero button{
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #00aeff;
+  font-size: 1.5rem;
 }
